@@ -1,0 +1,192 @@
+﻿DataBaseVersion: 1
+Language: de_DE
+ItemDatabaseList:
+- ItemId: schluessel1
+  Name: Schlüsselhälfte (vorne)
+  SpritePath: itempics/linkers
+  GhostDescription: eine vordere Schlüsselhälfte
+  HumanDescription: eine vordere Schlüsselhälfte
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: kleber
+  NextItem: kleberschlussel
+- ItemId: schluessel2
+  Name: Schlüsselhälfte (hinten)
+  SpritePath: itempics/rechters
+  GhostDescription: eine hintere Schlüsselhälfte
+  HumanDescription: eine hintere Schlüsselhälfte
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: kleberschlussel
+  NextItem: schluessel3
+- ItemId: kleberschlussel
+  Name: Schlüssel mit Kleber
+  SpritePath: itempics/kleberlinkers
+  GhostDescription: Jetzt kann man etwas mit der Schlüsselhälfte verbinden.
+  HumanDescription: Jetzt kann man etwas mit der Schlüsselhälfte verbinden.
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: schluessel2
+  NextItem: schluessel3
+- ItemId: taschenmesser
+  Name: Taschenmesser
+  SpritePath: itempics/taschenmesser
+  GhostDescription: Ein scharfes Messer.
+  HumanDescription: Ein scharfes Messer.
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: paket
+  NextItem: edelsteinblau
+- ItemId: paket
+  Name: Paket
+  SpritePath: itempics/paket
+  GhostDescription: Zugeklebt... man benötigt ein Hilfsmittel um es zu öffnen.
+  HumanDescription: Ein zugeklebtes Paket. So einfach kann man es nicht öffnen.
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: taschenmesser
+  NextItem: edelsteinblau
+- ItemId: edelsteinblau
+  Name: Blauer Edelstein
+  SpritePath: itempics/edelsteinblau
+  GhostDescription: Blauer Stein. Sieht nützlich aus.
+  HumanDescription: Funkelnder blauer Stein.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: edelsteinrot
+- ItemId: edelsteinrot
+  Name: Roter Edelstein
+  SpritePath: itempics/edelsteinrot
+  GhostDescription: Roter Stein. Sieht nützlich aus.
+  HumanDescription: Funkelnder roter Stein.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: edelsteingruen
+- ItemId: edelsteingruen
+  Name: Grüner Edelstein
+  SpritePath: itempics/edelsteingruen
+  GhostDescription: Grüner Stein. Sieht nützlich aus.
+  HumanDescription: Funkelnder grüner Stein.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: nemo
+- ItemId: nemo
+  Name: Plastik Fisch
+  SpritePath: itempics/nemo
+  GhostDescription: Alle Abflüsse führen ins Meer.
+  HumanDescription: Alle Abflüsse führen ins Meer.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: Tuerklinke
+- ItemId: Tuerklinke
+  Name: Türklinke
+  SpritePath: itempics/Tuerklinke
+  GhostDescription: Türklinke. Wo Gehört die hin?.
+  HumanDescription: Türklinke. Wer hat eine Türklinke ohne Tür?
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: kleber
+- ItemId: kleber
+  Name: Sekundenkleber
+  SpritePath: itempics/kleber
+  GhostDescription: Kleber, sollte nützlich sein!.
+  HumanDescription: Kleber, ist aber schon fast leer.
+  Combineable: true
+  CombineWith: Item
+  CombineWithItem: schluessel1
+  NextItem: kleberschlussel
+- ItemId: schluessel3
+  Name: Schlüssel
+  SpritePath: itempics/schluessel
+  GhostDescription: ein vollständiger Schlüssel
+  HumanDescription: ein vollständiger Schlüssel
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: duschvorhang 
+- ItemId: duschvorhang
+  Name: Duschvorhang
+  SpritePath: itempics/duschvorhang
+  GhostDescription: Ein blutverschmieter Vorhang. Unbrauchbar.
+  HumanDescription: Ich denke nicht das der noch nützlich wird.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: schmutzigerfinger 
+- ItemId: schmutzigerfinger
+  Name: Abgetrennter Finger
+  SpritePath: itempics/fingerschmutz
+  GhostDescription: Ich frage mich wem der mal gehört hat...
+  HumanDescription: Kann ich den Finger irgendwo benutzen?
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: saubererfinger
+- ItemId: saubererfinger
+  Name: Abgetrennter Finger (sauber)
+  SpritePath: itempics/fingersauber
+  GhostDescription: Ich frage mich wem der mal gehört hat...
+  HumanDescription: Kann ich den Finger irgendwo benutzen?
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: schluesselkarte  
+- ItemId: schluesselkarte
+  Name: Goldene Schlüsselkarte
+  SpritePath: itempics/schluesselkarte
+  GhostDescription: Ich kenne diese Karte...
+  HumanDescription: Wo kann ich diese Karte einlesen lassen?
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: handtuch 
+- ItemId: handtuch
+  Name: Handtuch
+  SpritePath: itempics/handtuch
+  GhostDescription: Einigermaßen sauber...
+  HumanDescription: Nur teilweise verdreckt, vielleicht aknn ich es irgendwo benutzen.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: coolesShirt
+- ItemId: coolesShirt
+  Name: Cooles Shirt
+  SpritePath: itempics/coolesShirt
+  GhostDescription: Der Mann darauf sieht gut aus!
+  HumanDescription: Ziemlich cooles Shirt, hoffe der Besitzer wird es nicht vermissen.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: linse
+- ItemId: linse
+  Name: Linse
+  SpritePath: itempics/linse
+  GhostDescription: Ist bestimmt nützlich wenn man sie irgendwo einfügt.
+  HumanDescription: Irgendwie cool, aber allein nutzlos.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: tagebuch
+- ItemId: tagebuch
+  Name: altes Tagebuch
+  SpritePath: itempics/tagebuch
+  GhostDescription: Die Einträge wurden an verschiedenen Orten geschrieben... Brahestraße, Blunkstraße, Pohlestraße... Ob sie wichtig sind?
+  HumanDescription: Es wirkt nicht so als wäre der Verfasser okay gewesen als er das geschrieben hat.
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: usb
+- ItemId: usb
+  Name: USB Stick
+  SpritePath: itempics/usb
+  GhostDescription: Ein USB Stick... wo könnten wir ihn einstecken?
+  HumanDescription: Seltsam... ich habe hier überhaupt keinen Computer gesehen..
+  Combineable: false
+  CombineWith: Item
+  CombineWithItem: none
+  NextItem: usb

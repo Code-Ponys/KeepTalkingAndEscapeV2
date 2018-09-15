@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: 760cad1f3d9b72240b371f4545edac13
+timeCreated: 1519405963
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Karte
+    100004: Klappe
+    100006: Knoepfe1
+    100008: polySurface1
+    100010: polySurface2
+    400000: //RootNode
+    400002: Karte
+    400004: Klappe
+    400006: Knoepfe1
+    400008: polySurface1
+    400010: polySurface2
+    2100000: Karte1
+    2100002: Kasten
+    2100004: Klappe1
+    2100006: Knoepfe
+    2300000: Klappe
+    2300002: Knoepfe1
+    2300004: polySurface1
+    2300006: polySurface2
+    3300000: Klappe
+    3300002: Knoepfe1
+    3300004: polySurface1
+    3300006: polySurface2
+    4300000: polySurface2
+    4300002: polySurface1
+    4300004: Klappe
+    4300006: Knoepfe1
+    6400000: Klappe
+    6400002: Knoepfe1
+    6400004: polySurface1
+    6400006: polySurface2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karte1
+    second: {fileID: 2100000, guid: 2089db1696ff38d40b08729a3b79ddea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kasten
+    second: {fileID: 2100000, guid: b67fa5d2f06939a4ca980001ee9a1c10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Klappe1
+    second: {fileID: 2100000, guid: fb5a36c89f4781946a06064473aa42bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knoepfe
+    second: {fileID: 2100000, guid: db85a852a3461ac439a5c3ab737b1e83, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: ce947008c1a6b5e418e40df0b5a5da12
+timeCreated: 1519140405
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bedstead
+    100002: //RootNode
+    100004: blanket
+    100006: mattress
+    100008: pillow lonely
+    100010: pillows big and little
+    100012: pillows couple
+    400000: bedstead
+    400002: //RootNode
+    400004: blanket
+    400006: mattress
+    400008: pillow lonely
+    400010: pillows big and little
+    400012: pillows couple
+    2100000: blanket.002
+    2100002: pollow lonely.002
+    2100004: pillows couple.002
+    2100006: pillows big and little.002
+    2100008: mattress.002
+    2100010: bed stead.002
+    2300000: bedstead
+    2300002: blanket
+    2300004: mattress
+    2300006: pillow lonely
+    2300008: pillows big and little
+    2300010: pillows couple
+    3300000: bedstead
+    3300002: blanket
+    3300004: mattress
+    3300006: pillow lonely
+    3300008: pillows big and little
+    3300010: pillows couple
+    4300000: blanket
+    4300002: pillow lonely
+    4300004: pillows couple
+    4300006: pillows big and little
+    4300008: mattress
+    4300010: bedstead
+    6400000: bedstead
+    6400002: blanket
+    6400004: mattress
+    6400006: pillow lonely
+    6400008: pillows big and little
+    6400010: pillows couple
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed stead.002
+    second: {fileID: 2100000, guid: 806ae12577ad2c84ea662d6a5999c263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blanket.002
+    second: {fileID: 2100000, guid: 78d743636243bb6468d08f0c0034cabd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mattress.002
+    second: {fileID: 2100000, guid: 3884577d02936d84898cbd48eda770fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillows big and little.002
+    second: {fileID: 2100000, guid: 11670b7136743564984f19540e7d54b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pillows couple.002
+    second: {fileID: 2100000, guid: f6dae62e4f77c1346b14e74da0dc72a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pollow lonely.002
+    second: {fileID: 2100000, guid: 2d231d7ef061c4249b1ed018d77a4f4d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

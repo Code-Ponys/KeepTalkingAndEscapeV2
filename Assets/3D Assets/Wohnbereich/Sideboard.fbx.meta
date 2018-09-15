@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: f24bbeeb4d83b8b4cb23b37027abdbf9
+timeCreated: 1519313494
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Beine
+    100002: SB_Schublade oben
+    100004: SB_Schublade unten
+    100006: "SB_T\xFCr links"
+    100008: "SB_T\xFCr rechts"
+    100010: //RootNode
+    100012: Sideboard
+    100014: "Steineinleseger\xE4t"
+    400000: Beine
+    400002: SB_Schublade oben
+    400004: SB_Schublade unten
+    400006: "SB_T\xFCr links"
+    400008: "SB_T\xFCr rechts"
+    400010: //RootNode
+    400012: Sideboard
+    400014: "Steineinleseger\xE4t"
+    2100000: Beine
+    2100002: Sideboard
+    2100004: "Leseger\xE4t"
+    2100006: "T\xFCr links"
+    2100008: "T\xFCr rechts"
+    2100010: Schublade oben
+    2100012: Schublade unten
+    2300000: Beine
+    2300002: SB_Schublade oben
+    2300004: SB_Schublade unten
+    2300006: "SB_T\xFCr links"
+    2300008: "SB_T\xFCr rechts"
+    2300010: Sideboard
+    2300012: "Steineinleseger\xE4t"
+    3300000: Beine
+    3300002: SB_Schublade oben
+    3300004: SB_Schublade unten
+    3300006: "SB_T\xFCr links"
+    3300008: "SB_T\xFCr rechts"
+    3300010: Sideboard
+    3300012: "Steineinleseger\xE4t"
+    4300000: Beine
+    4300002: Sideboard
+    4300004: "Steineinleseger\xE4t"
+    4300006: "SB_T\xFCr links"
+    4300008: "SB_T\xFCr rechts"
+    4300010: SB_Schublade oben
+    4300012: SB_Schublade unten
+    6400000: Beine
+    6400002: SB_Schublade oben
+    6400004: SB_Schublade unten
+    6400006: "SB_T\xFCr links"
+    6400008: "SB_T\xFCr rechts"
+    6400010: Sideboard
+    6400012: "Steineinleseger\xE4t"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beine
+    second: {fileID: 2100000, guid: 64c65a36917de634da89253a47a37669, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Leseger\xE4t"
+    second: {fileID: 2100000, guid: c8991d9ccb9769646ac832714cb8b2ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schublade oben
+    second: {fileID: 2100000, guid: 34165155c1167314b971b45abcd88617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Schublade unten
+    second: {fileID: 2100000, guid: a6356de857292234d94afac35af43995, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sideboard
+    second: {fileID: 2100000, guid: 8a69602cc3a4c1049bdf58402b27a764, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "T\xFCr links"
+    second: {fileID: 2100000, guid: f69edfb83a73b2c43bd50e728cdfd30b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "T\xFCr rechts"
+    second: {fileID: 2100000, guid: 1dd1d2d089357a040986f399a4aaf8ce, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
